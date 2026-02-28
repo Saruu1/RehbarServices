@@ -10,17 +10,17 @@ const values = [
   {
     title: "Shipping Aggregation",
     desc: "Multiple courier partners integrated into one powerful shipping dashboard.",
-    image: "/services/logistics.jpg",
+    image: "/Services/logistics.jpg",
   },
   {
     title: "Real-Time Tracking",
     desc: "Live shipment tracking and customer communication in one place.",
-    image: "/services/tracking.jpg",
+    image: "/Services/tracking.jpg",
   },
   {
     title: "RTO Reduction",
     desc: "Smart delivery intelligence that significantly lowers RTO rates.",
-    image: "/services/mission.jpg",
+    image: "/Services/mission.jpg",
   },
 ];
 
@@ -37,14 +37,14 @@ const directors = [
     role: "Founder & CEO",
     message:
       "At Rehbar Services, our mission is to deliver structured, reliable, and growth-focused solutions for businesses. We address common challenges caused by fragmented logistics and digital systems through Rehbar Post and our Web Solutions division. Built on innovation and integrity, our platform empowers businesses to operate with clarity and confidence. We believe sustainable growth comes from trust, consistency, and meaningful impact, and we remain committed to strengthening our systems while upholding the highest standards of professionalism.",
-    image: "/services/zeeshanpic.jpeg",
+    image: "/Services/zeeshanpic.jpeg",
   },
   {
     name: "Mr. Faisal Rasheed",
     role: "Co-Founder & COO",
     message:
       "Operational excellence defines Rehbar Services. Every system, partnership, and solution is built on structure, efficiency, and accountability. We ensure businesses gain clarity in processes, reliability in execution, and responsive support. Through streamlined logistics aggregation and robust digital development, we deliver measurable performance. Our focus is on building strong operational foundations that enable scalable growth without barriers. With disciplined execution and a forward-looking mindset, we continuously refine our services to meet evolving business needs.",
-    image: "/services/faisalpic.jpeg",
+    image: "/Services/faisalpic.jpeg",
   },
 ];
 
@@ -95,7 +95,7 @@ export default function AboutPage() {
 
           <div className="relative h-105 rounded-xl overflow-hidden">
             <Image
-              src="/services/hero.jpg"
+              src="/Services/hero.jpg"
               alt="Rehbar Post logistics operations"
               fill
               className="object-cover"
@@ -113,7 +113,7 @@ export default function AboutPage() {
         >
           <div className="relative h-90 rounded-xl overflow-hidden">
             <Image
-              src="/services/our-mission.png"
+              src="/Services/our-mission.png"
               alt="Mission image"
               fill
               className="object-cover"
@@ -157,7 +157,7 @@ export default function AboutPage() {
 
           <div className="relative h-90 rounded-xl overflow-hidden">
             <Image
-              src="/services/our-vision.png"
+              src="/Services/our-vision.png"
               alt="Mission image"
               fill
               className="object-cover"
@@ -248,7 +248,7 @@ export default function AboutPage() {
 
           <div className="relative h-90 rounded-xl overflow-hidden">
             <Image
-              src="/services/smart-logistics.jpeg"
+              src="/Services/smart-logistics.jpeg"
               alt="Rehbar Post platform"
               fill
               className="object-cover"
@@ -266,7 +266,7 @@ export default function AboutPage() {
         >
           <div className="relative h-90 rounded-xl overflow-hidden">
             <Image
-              src="/services/web-solutions.jpeg"
+              src="/Services/web-solutions.jpeg"
               alt="Web development services"
               fill
               className="object-cover"

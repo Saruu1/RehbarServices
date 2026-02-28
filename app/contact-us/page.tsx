@@ -129,7 +129,7 @@ export default function ContactUsPage() {
 
             {/* Image */}
             <Image
-              src="/services/contact-hero.png"
+              src="/Services/contact-hero.png"
               alt="Contact our team"
               fill
               className="object-cover transition-transform duration-700 ease-out

@@ -8,22 +8,22 @@ const services = [
   {
     title: "Web Development",
     desc: "High-performance websites using Next.js, React, and modern stacks.",
-    image: "/services/web-dev.jpg",
+    image: "/Services/web-dev.jpg",
   },
   {
     title: "Mobile Applications",
     desc: "Cross-platform mobile apps with smooth UX and long-term scalability.",
-    image: "/services/mobile-apps.jpg",
+    image: "/Services/mobile-apps.jpg",
   },
   {
     title: "UI / UX Design",
     desc: "Clean, user-centered interfaces designed to convert and retain users.",
-    image: "/services/ui-ux.jpg",
+    image: "/Services/ui-ux.jpg",
   },
   {
     title: "Custom Software",
     desc: "Tailored software solutions to automate and scale your business.",
-    image: "/services/custom-software.jpg",
+    image: "/Services/custom-software.jpg",
   },
 ];
 
