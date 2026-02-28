@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function CTA() {
   return (
@@ -57,13 +58,15 @@ export default function CTA() {
             </motion.div>
 
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.96 }}>
-              <Button
-                size="default"
-                variant="outline"
-                className="border-white/40 text-black px-6 py-3 text-base hover:bg-[#0F3460] hover:text-white"
-              >
-                Learn More
-              </Button>
+              <Link href="/about-us">
+                <Button
+                  size="default"
+                  variant="outline"
+                  className="border-white/40 text-black px-6 py-3 text-base hover:bg-[#0F3460] hover:text-white"
+                >
+                  Learn More
+                </Button>
+              </Link>
             </motion.div>
           </div>
         </motion.div>

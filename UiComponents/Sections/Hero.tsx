@@ -1,16 +1,16 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Hero() {
-
   // function to open WhatsApp with a pre-filled message for consultation
-    const handleConsultation = () => {
-    const phone = "+917051181750"
-    const message = `Hi, I need to get some information.`
-    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`
-    window.open(url, "_blank")
-  }
+  const handleConsultation = () => {
+    const phone = "+917051181750";
+    const message = `Hi, I need to get some information.`;
+    const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
+  };
   return (
     <section className="container mx-auto px-4 pt-20 text-center">
       <h1 className="text-4xl text-[#0F3460] md:text-6xl font-bold tracking-tight">
@@ -23,13 +23,22 @@ export default function Hero() {
       </p>
 
       <div className="mt-10 flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
-        <Button size="default" className="w-full sm:w-auto bg-[#CC5500] hover:bg-[#0F3460]" onClick={handleConsultation}>
+        <Button
+          size="default"
+          className="w-full z-10 sm:w-auto bg-[#CC5500] hover:bg-[#0F3460]"
+          onClick={handleConsultation}
+        >
           Get a Free Consultation
         </Button>
 
-        <Button size="default" className="w-full sm:w-auto bg-[#CC5500] hover:bg-[#0F3460]">
-          View Our Work
-        </Button>
+        <Link href="#whyUs">
+          <Button
+            size="default"
+            className="w-full z-10 sm:w-auto bg-[#CC5500] hover:bg-[#0F3460]"
+          >
+            Why Choose Us?
+          </Button>
+        </Link>
       </div>
     </section>
   );

@@ -81,72 +81,72 @@ export default function ContactUsPage() {
           ))}
         </svg>
 
-<div className="container mx-auto px-4">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="relative grid md:grid-cols-2 gap-12 items-center py-24 max-w-6xl mx-auto"
-        >
-          {/* TEXT */}
-          <div className="text-center md:text-left relative z-10">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Get in Touch
-            </h1>
-
-            <p className="text-lg text-muted-foreground max-w-md">
-              Have questions, ideas, or want to discuss a project? Fill out the
-              form below and our team will respond as soon as possible.
-            </p>
-          </div>
-
-          {/* IMAGE */}
+        <div className="container mx-auto px-4">
           <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            whileInView={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="relative w-full h-72 md:h-96 rounded-2xl overflow-hidden
+            className="relative grid md:grid-cols-2 gap-12 items-center py-24 max-w-6xl mx-auto"
+          >
+            {/* TEXT */}
+            <div className="text-center md:text-left relative z-10">
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">
+                Get in Touch
+              </h1>
+
+              <p className="text-lg text-muted-foreground max-w-md">
+                Have questions, ideas, or want to discuss a project? Fill out
+                the form below and our team will respond as soon as possible.
+              </p>
+            </div>
+
+            {/* IMAGE */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              className="relative w-full h-72 md:h-96 rounded-2xl overflow-hidden
              shadow-xl transition-all duration-500 ease-out
              hover:-translate-y-2 hover:shadow-2xl group"
-          >
-            {/* Accent border on hover */}
-            <div
-              className="pointer-events-none absolute inset-0 rounded-2xl
+            >
+              {/* Accent border on hover */}
+              <div
+                className="pointer-events-none absolute inset-0 rounded-2xl
                ring-1 ring-transparent
                group-hover:ring-[#CC5500]/40
                transition-all duration-500"
-            />
+              />
 
-            {/* Diagonal accent */}
-            <div
-              className="absolute -top-10 -left-10 w-40 h-40 border-[3px]
+              {/* Diagonal accent */}
+              <div
+                className="absolute -top-10 -left-10 w-40 h-40 border-[3px]
                   border-[#CC5500]/20 rotate-12 rounded-2xl z-10
                   transition-transform duration-500
                   group-hover:rotate-18deg"
-            />
+              />
 
-            {/* Image */}
-            <Image
-              src="/Services/contact-hero.png"
-              alt="Contact our team"
-              fill
-              className="object-cover transition-transform duration-700 ease-out
+              {/* Image */}
+              <Image
+                src="/Services/contact-hero.png"
+                alt="Contact our team"
+                fill
+                className="object-cover transition-transform duration-700 ease-out
                group-hover:scale-110"
-              priority
-            />
+                priority
+              />
 
-            {/* Hover overlay */}
-            <div
-              className="absolute inset-0 bg-linear-to-tr
+              {/* Hover overlay */}
+              <div
+                className="absolute inset-0 bg-linear-to-tr
                from-black/30 via-transparent to-transparent
                opacity-30 group-hover:opacity-10
                transition-opacity duration-500"
-            />
+              />
+            </motion.div>
           </motion.div>
-        </motion.div>
-      </div>
+        </div>
       </div>
 
       <div className="container mx-auto px-4 py-16 lg:flex lg:gap-12 lg:items-start mt-12">

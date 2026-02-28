@@ -6,23 +6,23 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const services = [
   {
-    title: "Web Development",
-    desc: "High-performance websites using Next.js, React, and modern stacks.",
-    image: "/Services/web-dev.jpg",
+    title: "Web & Mobile Development",
+    desc: "High-performance websites and cross-platform mobile apps built with modern stacks, smooth UX, and scalability.",
+    image: "/Services/mobile-app-dev.jpg",
   },
   {
-    title: "Mobile Applications",
-    desc: "Cross-platform mobile apps with smooth UX and long-term scalability.",
-    image: "/Services/mobile-apps.jpg",
+    title: "Rehbar Post – Smart Logistics Platform",
+    desc: "Unified logistics platform offering multiple couriers, competitive rates, centralized tracking, faster dispatch, and delivery support.",
+    image: "/Services/smart-logistics.jpg",
   },
   {
     title: "UI / UX Design",
-    desc: "Clean, user-centered interfaces designed to convert and retain users.",
+    desc: "Clean, user-centered interface designs focused on usability, conversions, accessibility, and long-term user retention.",
     image: "/Services/ui-ux.jpg",
   },
   {
     title: "Custom Software",
-    desc: "Tailored software solutions to automate and scale your business.",
+    desc: "Tailored software solutions built to automate workflows, scale operations, and support evolving business requirements.",
     image: "/Services/custom-software.jpg",
   },
 ];
