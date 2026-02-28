@@ -22,7 +22,7 @@ export default function HeroVisual() {
           </div>
 
           <Image
-            src="/services/hero-visual.jpg"
+            src="/Services/hero-visual.jpg"
             alt="Software dashboard preview"
             width={500}
             height={300}
