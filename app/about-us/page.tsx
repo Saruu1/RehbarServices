@@ -382,7 +382,7 @@ export default function AboutPage() {
                     />
                   </div>
 
-                  <CardHeader className="text-center py-4">
+                  <CardHeader className="text-center">
                     <CardTitle className="text-lg text-[#1A2E4A]">
                       {director.name}
                     </CardTitle>
