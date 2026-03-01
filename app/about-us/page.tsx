@@ -248,7 +248,7 @@ export default function AboutPage() {
 
           <div className="relative h-90 rounded-xl overflow-hidden">
             <Image
-              src="/Services/smart-logistics.jpeg"
+              src="/Services/smart-logistics.jpg"
               alt="Rehbar Post platform"
               fill
               className="object-cover"
