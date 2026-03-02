@@ -175,42 +175,6 @@ export default function AboutPage() {
           >
             What Makes Rehbar Services Different?
           </motion.h2>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            {values.map((item, index) => (
-              <motion.div
-                key={item.title}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.15 }}
-              >
-                <Card className="group relative overflow-hidden h-full transition-all hover:shadow-2xl">
-                  {/* Hover background */}
-                  <div className="absolute inset-0 bg-[#CC5500] origin-left scale-x-0 transition-transform duration-700 group-hover:scale-x-100 z-0" />
-
-                  <div className="relative h-44 z-10">
-                    <Image
-                      src={item.image}
-                      alt={item.title}
-                      fill
-                      className="object-cover transition-transform duration-500 group-hover:scale-110"
-                    />
-                  </div>
-
-                  <CardHeader className="relative z-10 text-center">
-                    <CardTitle className="transition-colors group-hover:text-white">
-                      {item.title}
-                    </CardTitle>
-                  </CardHeader>
-
-                  <CardContent className="relative z-10 text-center text-muted-foreground transition-colors group-hover:text-white">
-                    {item.desc}
-                  </CardContent>
-                </Card>
-              </motion.div>
-            ))}
-          </div>
         </div>
 
         {/* REHBAR POST PLATFORM */}
@@ -222,7 +186,7 @@ export default function AboutPage() {
           className="grid lg:grid-cols-2 gap-12 items-center"
         >
           <div>
-            <h2 className="text-3xl font-semibold text-[#1A2E4A] mb-4">
+            <h2 className="text-2xl font-semibold text-[#1A2E4A] mb-4">
               Rehbar Post – Smart Logistics Aggregation Platform
             </h2>
 
@@ -274,7 +238,7 @@ export default function AboutPage() {
           </div>
 
           <div>
-            <h2 className="text-3xl font-semibold text-[#1A2E4A] mb-4">
+            <h2 className="text-2xl font-semibold text-[#1A2E4A] mb-4">
               Web Solutions & Digital Development
             </h2>
 
@@ -303,7 +267,7 @@ export default function AboutPage() {
           transition={{ duration: 0.6 }}
           className="max-w-4xl mx-auto text-center"
         >
-          <h2 className="text-3xl font-semibold text-[#1A2E4A] mb-6">
+          <h2 className="text-2xl font-semibold text-[#1A2E4A] mb-6">
             Our Approach
           </h2>
 
@@ -391,7 +355,7 @@ export default function AboutPage() {
                     </p>
                   </CardHeader>
 
-                  <CardContent className="text-center text-muted-foreground text-sm px-6 line-clamp-6">
+                  <CardContent className="text-center text-muted-foreground text-sm px-6">
                     “{director.message}”
                   </CardContent>
                 </Card>

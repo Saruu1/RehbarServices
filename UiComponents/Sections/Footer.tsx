@@ -23,7 +23,7 @@ export default function Footer() {
             priority
           /> */}
               <Image
-                src="/Services/Logo-removebg.png"
+                src="/Services/Logo21.png"
                 alt="Rehbar Post Logo"
                 width={140}
                 height={45}
