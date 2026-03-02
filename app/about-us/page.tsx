@@ -165,18 +165,6 @@ export default function AboutPage() {
           </div>
         </motion.div>
 
-        {/* VALUES */}
-        <div>
-          <motion.h2
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            className="text-3xl font-semibold text-[#1A2E4A] text-center mb-14"
-          >
-            What Makes Rehbar Services Different?
-          </motion.h2>
-        </div>
-
         {/* REHBAR POST PLATFORM */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
